@@ -12,7 +12,7 @@ pipeline {
         sh 'date'
       }
     } 
-    stage('Hello') {
+    stage('Hi') {
       steps {
         echo 'Hello from GitHub Jenkinsfile'
       }
